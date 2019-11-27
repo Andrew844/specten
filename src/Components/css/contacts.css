@@ -1,0 +1,57 @@
+.contacts-page {
+	display: flex;
+	justify-content: space-around;
+	margin: 100px 0 100px 0;
+}
+
+.contacts-page .submit-form {
+	width: 600px;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	animation: fade-in-right 1s ease;
+}
+
+.contacts-page .submit-form label {
+	font-size: 18px;
+}
+
+.contacts-page .submit-form .submit-btn {
+	background-color: #5863f5;
+	margin: auto;
+}
+
+.contacts-page .description {
+	line-height: 40px;
+	font-weight: 400;
+	font-size: 20px;
+	animation: fade-in-left .7s ease;
+}
+
+.contacts-page .description span {
+	color: #5863f5;
+	font-weight: 550;
+}
+
+@keyframes fade-in-right {
+	0% {
+		opacity: 0;
+		transform: translateX(200px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+@keyframes fade-in-left {
+	0% {
+		opacity: 0;
+		transform: translateX(-200px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}

@@ -1,0 +1,178 @@
+.main .welcome {
+	display: flex;
+	padding: 70px 100px 50px 100px;
+	justify-content: space-between;
+	margin-right: auto;
+	background-image: url("../../img/welcome/white-1866105.jpg");
+	background-size: 100%;
+	color: #404040;
+	background-color: #dedede;
+}
+
+.main .description {
+	width: 600px;
+	height: 400px;
+	font-size: 18px;
+	line-height: 1.6;
+	animation: fade-in-left .7s ease;
+}
+
+.main .description span {
+	font-weight: 500;
+	color: #313ef5;
+}
+
+.main .description h2 {
+	font-weight: 400;
+	font-size: 30px;
+}
+
+.main .application-form {
+	width: 400px;
+	text-align: center;
+	animation: fade-in-right .7s ease;
+}
+
+.main .application-form a {
+	background-color: #5863f5;
+}
+
+.main .input-field label {
+	color: #404040;
+	font-size: 18px;
+}
+
+.benefits {
+	margin: 70px 0 80px 0;
+}
+
+.benefits h4 {
+	text-align: center;
+	margin: 0px 0 50px 0;
+}
+
+.benefits benefits-cards {
+	display: flex;
+	justify-content: space-around;
+}
+
+.benefits benefit-card {
+	text-align: center;
+	width: 300px;
+	border: 2px solid #5289ff;
+	border-radius: 10px;
+}
+
+.benefits benefit-card:nth-child(2n) {
+	animation: drop-to-bottom 1s ease;
+}
+
+.benefits benefit-card:nth-child(2n + 1) {
+	animation: drop-to-top 1s ease;
+}
+
+.benefits benefit-card h5 {
+	font-size: 22px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.benefits benefit-card img {
+	height: 150px;
+	border-radius: 20px;
+}
+
+.benefits benefit-card p {
+	width: 250px;
+	margin: auto;
+	margin: 20px auto 20px auto;
+}
+
+.heating {
+	padding: 50px 0 100px 0;
+	margin: 100px 0 0 0;
+	background-image: linear-gradient(to bottom, rgba(10, 10, 10, .9),	rgba(0, 0, 0, 0.5)), url("../../img/heating/plumbing.jpg");
+	background-size: 100%;
+	color: white;
+}
+
+.heating h4 {
+	text-align: center;
+	font-size: 30px;
+}
+
+.heating .collapsible-lists {
+	display: flex;
+	justify-content: space-around;
+}
+
+.heating .heating-elements, .heating-equipment {
+	width: 500px;
+}
+
+.heating .collapsible-lists .heating-elements .collapsible .collapsible-header, .heating-equipment .collapsible .collapsible-header {
+	font-size: 18px;
+	background: transparent;
+}
+
+.heating .collapsible-lists span {
+	font-size: 17px;
+}
+
+.heating .collapsible-lists h5 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.heating .collapsible-lists .heating-elements h5 {
+	height: 55px;
+	line-height: 55px;
+}
+
+/* animations */
+
+@keyframes drop-to-bottom {
+	0% {
+		opacity: 0;
+		transform: translateY(-200px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+
+	}
+}
+
+@keyframes drop-to-top {
+	0% {
+		opacity: 0;
+		transform: translateY(200px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+
+	}
+}
+
+@keyframes fade-in-right {
+	0% {
+		opacity: 0;
+		transform: translateX(200px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+@keyframes fade-in-left {
+	0% {
+		opacity: 0;
+		transform: translateX(-200px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}

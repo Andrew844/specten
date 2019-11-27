@@ -1,0 +1,71 @@
+.useful-page {
+	padding: 50px 0 100px 0;
+}
+
+.useful-page .section-header {
+	text-align: center;
+	margin: 0 0 100px 0;
+	animation: drop-to-top .7s ease
+}
+
+.useful-page .section-header p {
+	width: 500px;
+	font-size: 18px;
+	margin: auto;
+}
+
+.useful-page .heaters {
+	padding: 20px 20px 20px 20px;
+	border: 2px solid #5289ff;
+	border-radius: 10px;
+}
+
+.useful-page .heaters h5 {
+	text-align: center;
+}
+
+.useful-page .infrared-heaters h5 {
+	text-align: center;
+}
+
+.useful-page .titles {
+	animation: fade-in-left .7s ease
+}
+
+.useful-page .descriptions {
+	animation: fade-in-right .7s ease
+}
+
+@keyframes drop-to-top {
+	0% {
+		opacity: 0;
+		transform: translateY(-200px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+
+	}
+}
+
+@keyframes fade-in-right {
+	0% {
+		opacity: 0;
+		transform: translateX(100px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+@keyframes fade-in-left {
+	0% {
+		opacity: 0;
+		transform: translateX(-100px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
