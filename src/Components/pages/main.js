@@ -203,7 +203,7 @@ export default class Main extends Component {
 											Для сауны
 										</button>
 								</div>
-								<div id="sauna" class="collapse show" aria-labelledby="sauna-heading" data-parent="#heating-equipment">
+								<div id="sauna" class="collapse" aria-labelledby="sauna-heading" data-parent="#heating-equipment">
 									<div class="card-body">
 										электрокаменки								
 									</div>

@@ -16,10 +16,18 @@ export default class Useful extends Component {
 				<div className="row">
 				<div className="col-4 titles">
 					<div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-						<a className="nav-link active" id="v-pills-infrared-heaters-tab" data-toggle="pill" href="#v-pills-infrared-heaters" role="tab" aria-controls="v-pills-infrared-heaters" aria-selected="true">Инфракрасные обогреватели</a>
-						<a className="nav-link" id="v-pills-storage-water-heaters-tab" data-toggle="pill" href="#v-pills-storage-water-heaters" role="tab" aria-controls="v-pills-storage-water-heaters" aria-selected="false">Инфракрасные обогреватели</a>
-						<a className="nav-link" id="v-pills-electric-heater-tab" data-toggle="pill" href="#v-pills-electric-heater" role="tab" aria-controls="v-pills-electric-heater" aria-selected="false">Электрический водонагреватель</a>
-						<a className="nav-link" id="v-pills-convectors-types-tab" data-toggle="pill" href="#v-pills-convectors-types" role="tab" aria-controls="v-pills-convectors-types" aria-selected="false">Виды конвекторов</a>
+						<a className="nav-link active" id="v-pills-infrared-heaters-tab" data-toggle="pill" 
+							 href="#v-pills-infrared-heaters" role="tab" aria-controls="v-pills-infrared-heaters" 
+							 aria-selected="true">Инфракрасные обогреватели</a>
+						<a className="nav-link" id="v-pills-storage-water-heaters-tab" data-toggle="pill"
+							 href="#v-pills-storage-water-heaters" role="tab" aria-controls="v-pills-storage-water-heaters" 
+							 aria-selected="false">Накопительные водонагреватели</a>
+						<a className="nav-link" id="v-pills-electric-heater-tab" data-toggle="pill" 
+							 href="#v-pills-electric-heater" role="tab" aria-controls="v-pills-electric-heater" 
+							 aria-selected="false">Электрический водонагреватель</a>
+						<a className="nav-link" id="v-pills-convectors-types-tab" data-toggle="pill" 
+							 href="#v-pills-convectors-types" role="tab" aria-controls="v-pills-convectors-types" 
+							 aria-selected="false">Виды конвекторов</a>
 					</div>
 				</div>
 				<div className="col-8 descriptions">
@@ -118,37 +126,7 @@ export default class Useful extends Component {
 					</div>
 				</div>
 			</div>
-
-
 			
-				{/*
-					<div className="storage-water-heaters" id="storage-water-heaters">
-						<h5>Накопительные водонагреватели</h5>
-						<p>Накопительные водонагреватели – это одно из лучших созданий техники.
-
-Представляют они собой баки разного размера и объема. Функциональность их осуществляется таким образом, что холодная вода, поступающая из центрального водопровода наполняет этот бак, там она греется и используется хозяином по надобности.
-
-А за счет усовершенствованной системы теплоизоляции, вода очень долгое время остается горячей. И, когда температура понижается, водонагреватель автоматически включается и подогревает содержимое.
-
-При покупке подобного бака, у каждого возникает вопрос: С каким объемом лучше купить водонагреватель?
-
-Известно, что на одну среднестатистическую семью необходим бак объемом не менее 150-170 литров.
-
-Но, если у Вас большая квартира и располагают денежные возможности, то лучше приобрести водонагреватель с большим объемом, чтобы потом не тратиться дважды при замене этого бака на новый побольше.
-
- Также при покупке каждый желает, чтобы «выходящая» вода оставалась такой же чистой, а может быть даже и лучше. На качество воды влияет поверхности самого бака, то есть из чего он произведен.
-
-Многие фирмы делают их из нержавеющей стали, затем для создания «оболочки» покрывают ее специальной глазурью. Но она способна к разрушению. Поэтому через какое-то время потрескавшаяся глазурь приведет к коррозии металла, тем самым загрязняя воду.
-
-Еще есть баки с тефлоновым покрытием, они не плохие. Занимают второе место по качеству поверхностей водонагревателей.
-
-Но самыми лучшими, по многим исследованиям, выделяют баки, стенки которых сделаны из специальной высоколегированной, устойчивой к коррозийным воздействиям стали.
-
-Они отличаются долговечностью, имеют выровненную поверхность, но и стоят дороже остальных.
-
- Также на чистоту влияют профилактические обработки бака специальными чистящими средствами, не оставляющими налета. В таком случае у Вас всегда в доме будет горячая вода, но к тому же еще и без вредных примесей.</p>
-					</div>
-				</div> */}
 			</div>
 		);
 	};
