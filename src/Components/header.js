@@ -14,7 +14,7 @@ export default class Header extends Component {
 				</div>
 				<div className="links">
 					<p className="main"
-						 style={{backgroundColor: "#212a9e"}}
+						 style={{backgroundColor: "#2c38c9"}}
 						 onClick={() => {
 							 this.props.changePages("main");
 							 }}>Главная</p>
@@ -33,6 +33,10 @@ export default class Header extends Component {
 						 onClick={() => {
 							 this.props.changePages("contacts");
 							 }}>Контакты</p>
+				</div>
+				<div className="phones">
+					<p>	8 908 82603 01 <br/>
+							(3513) 59-17-67</p>
 				</div>
 			</div>
 		);

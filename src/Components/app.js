@@ -30,25 +30,25 @@ export default class App extends Component {
 					for (let i = 0; i < linksArr.length; i++) {
 						linksArr[i].style.backgroundColor = "#313ef5";
 					}
-					main.style.backgroundColor = "#212a9e";
+					main.style.backgroundColor = "#2c38c9";
 					break;
 				case "catalogue":
 						for (let i = 0; i < linksArr.length; i++) {
 							linksArr[i].style.backgroundColor = "#313ef5";
 						}
-						catalogue.style.backgroundColor = "#212a9e";
+						catalogue.style.backgroundColor = "#2c38c9";
 					break;
 				case "useful":
 						for (let i = 0; i < linksArr.length; i++) {
 							linksArr[i].style.backgroundColor = "#313ef5";
 						}
-						useful.style.backgroundColor = "#212a9e";
+						useful.style.backgroundColor = "#2c38c9";
 					break;
 				case "contacts":
 						for (let i = 0; i < linksArr.length; i++) {
 							linksArr[i].style.backgroundColor = "#313ef5";
 						}
-						contacts.style.backgroundColor = "#212a9e";
+						contacts.style.backgroundColor = "#2c38c9";
 					break;
 				default:
 					console.log(`LinkName "${linkName}" is incorrect`);

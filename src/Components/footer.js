@@ -5,6 +5,7 @@ import "./css/footer.css";
 
 export default class Footer extends Component {
 	render () {
+		const year = new Date().getFullYear();
 		return (
 			<footer>
 				<div className="left-part">
@@ -13,7 +14,7 @@ export default class Footer extends Component {
 					<p>телефон: 8 908 82603 01; (3513) 59-17-67</p>
 				</div>
 				<div className="right-part">
-					<p>© 2018 МиассСпецТэн. Все права защищены.</p>
+					<p>© {year} МиассСпецТэн. Все права защищены.</p>
 				</div>
 			</footer>
 		);
