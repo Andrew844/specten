@@ -76,88 +76,88 @@ export default class Main extends Component {
 
 					<div className="collapsible-lists">
 
-						<div class="accordion heating-elements" id="heating-elements">
+						<div className="accordion heating-elements" id="heating-elements">
 							<h5>Нагревательных элементов</h5>
 							
-							<div class="card">
-								<div class="card-header" id="air-heating-heading">
-										<button class="btn" type="button" data-toggle="collapse" data-target="#air-heating" 
+							<div className="card">
+								<div className="card-header" id="air-heating-heading">
+										<button className="btn" type="button" data-toggle="collapse" data-target="#air-heating" 
 														aria-expanded="true" aria-controls="air-heating">
 											Для нагрева воздуха
 										</button>
 								</div>
-								<div id="air-heating" class="collapse" aria-labelledby="air-heating-heading" data-parent="#heating-elements">
-									<div class="card-body">
+								<div id="air-heating" className="collapse" aria-labelledby="air-heating-heading" data-parent="#heating-elements">
+									<div className="card-body">
 										ТЭН, ТЭНР, ТЭНП									
 									</div>
 								</div>
 							</div>
 							
-							<div class="card">
-								<div class="card-header" id="water-heating-header">
-										<button class="btn  collapsed" type="button" data-toggle="collapse" data-target="#water-heating" 
+							<div className="card">
+								<div className="card-header" id="water-heating-header">
+										<button className="btn  collapsed" type="button" data-toggle="collapse" data-target="#water-heating" 
 														aria-expanded="false" aria-controls="water-heating">
 											Для нагрева воды
 										</button>
 								</div>
-								<div id="water-heating" class="collapse" aria-labelledby="water-heating-header" data-parent="#heating-elements">
-									<div class="card-body">
+								<div id="water-heating" className="collapse" aria-labelledby="water-heating-header" data-parent="#heating-elements">
+									<div className="card-body">
 										ТЭН, БЭВ, ТЭНП, СЭВ									
 									</div>
 								</div>
 							</div>
 							
-							<div class="card">
-								<div class="card-header" id="oils-heating-header">
-										<button class="btn  collapsed" type="button" data-toggle="collapse" data-target="#oils-heating" 
+							<div className="card">
+								<div className="card-header" id="oils-heating-header">
+										<button className="btn  collapsed" type="button" data-toggle="collapse" data-target="#oils-heating" 
 														aria-expanded="false" aria-controls="oils-heating">
 											Для нагрева масел
 										</button>
 								</div>
-								<div id="oils-heating" class="collapse" aria-labelledby="oils-heating-header" data-parent="#heating-elements">
-									<div class="card-body">
+								<div id="oils-heating" className="collapse" aria-labelledby="oils-heating-header" data-parent="#heating-elements">
+									<div className="card-body">
 										ТЭН, ТЭНП, БЭВ, СЭМ									
 									</div>
 								</div>
 							</div>
 
-							<div class="card">
-								<div class="card-header" id="contact-heating-header">
-										<button class="btn  collapsed" type="button" data-toggle="collapse" data-target="#contact-heating" 
+							<div className="card">
+								<div className="card-header" id="contact-heating-header">
+										<button className="btn  collapsed" type="button" data-toggle="collapse" data-target="#contact-heating" 
 														aria-expanded="false" aria-controls="contact-heating">
 											Для контактного нагрева
 										</button>
 								</div>
-								<div id="contact-heating" class="collapse" aria-labelledby="contact-heating-header" data-parent="#heating-elements">
-									<div class="card-body">
+								<div id="contact-heating" className="collapse" aria-labelledby="contact-heating-header" data-parent="#heating-elements">
+									<div className="card-body">
 										плоские нагреватели, кольцевые нагреватели, ТЭНП, ЭНГЛ
 									</div>
 								</div>
 							</div>
 
-							<div class="card">
-								<div class="card-header" id="medicial-equipment-header">
-										<button class="btn  collapsed" type="button" data-toggle="collapse" data-target="#medicial-equipment" 
+							<div className="card">
+								<div className="card-header" id="medicial-equipment-header">
+										<button className="btn  collapsed" type="button" data-toggle="collapse" data-target="#medicial-equipment" 
 														aria-expanded="false" aria-controls="medicial-equipment">
 											Для медицинского оборудования
 										</button>
 								</div>
-								<div id="medicial-equipment" class="collapse" aria-labelledby="medicial-equipment-header" data-parent="#heating-elements">
-									<div class="card-body">
+								<div id="medicial-equipment" className="collapse" aria-labelledby="medicial-equipment-header" data-parent="#heating-elements">
+									<div className="card-body">
 										ТЭНы для стерилизаторов и дистилляторов
 									</div>
 								</div>
 							</div>
 
-							<div class="card">
-								<div class="card-header" id="food-equipment-header">
-										<button class="btn  collapsed" type="button" data-toggle="collapse" data-target="#food-equipment" 
+							<div className="card">
+								<div className="card-header" id="food-equipment-header">
+										<button className="btn  collapsed" type="button" data-toggle="collapse" data-target="#food-equipment" 
 														aria-expanded="false" aria-controls="food-equipment">
 											Для пищевого оборудования
 										</button>
 								</div>
-								<div id="food-equipment" class="collapse" aria-labelledby="food-equipment-header" data-parent="#heating-elements">
-									<div class="card-body">
+								<div id="food-equipment" className="collapse" aria-labelledby="food-equipment-header" data-parent="#heating-elements">
+									<div className="card-body">
 										электроконфорки, ТЭНы для варочных котлов
 									</div>
 								</div>
@@ -168,57 +168,57 @@ export default class Main extends Component {
 						<div className="heating-equipment" id="heating-equipment">
 							<h5>Промышленных и бытовых нагревательных приборов</h5>
 
-							<div class="card">
-								<div class="card-header" id="air-heating-heading-equipment">
-										<button class="btn" type="button" data-toggle="collapse" data-target="#air-heating-equipment" 
+							<div className="card">
+								<div className="card-header" id="air-heating-heading-equipment">
+										<button className="btn" type="button" data-toggle="collapse" data-target="#air-heating-equipment" 
 														aria-expanded="true" aria-controls="air-heating-equipment">
 											Для нагрева воздуха
 										</button>
 								</div>
-								<div id="air-heating-equipment" class="collapse" aria-labelledby="air-heating-heading-equipment" data-parent="#heating-equipment">
-									<div class="card-body">
+								<div id="air-heating-equipment" className="collapse" aria-labelledby="air-heating-heading-equipment" data-parent="#heating-equipment">
+									<div className="card-body">
 										тепловые пушки, калориферы, ПЭТ, конвекторы								
 									</div>
 								</div>
 							</div>
 							
-							<div class="card">
-								<div class="card-header" id="water-heating-heading-equipment">
-										<button class="btn" type="button" data-toggle="collapse" data-target="#water-heating-equipment" 
+							<div className="card">
+								<div className="card-header" id="water-heating-heading-equipment">
+										<button className="btn" type="button" data-toggle="collapse" data-target="#water-heating-equipment" 
 														aria-expanded="true" aria-controls="water-heating">
 											Для нагрева воды
 										</button>
 								</div>
-								<div id="water-heating-equipment" class="collapse" aria-labelledby="water-heating-heading-equipment" data-parent="#heating-equipment">
-									<div class="card-body">
+								<div id="water-heating-equipment" className="collapse" aria-labelledby="water-heating-heading-equipment" data-parent="#heating-equipment">
+									<div className="card-body">
 										электрокотлы, ЭВНКА, ЭВПП									
 									</div>
 								</div>
 							</div>
 							
-							<div class="card">
-								<div class="card-header" id="sauna-heading">
-										<button class="btn" type="button" data-toggle="collapse" data-target="#sauna" 
+							<div className="card">
+								<div className="card-header" id="sauna-heading">
+										<button className="btn" type="button" data-toggle="collapse" data-target="#sauna" 
 														aria-expanded="true" aria-controls="sauna">
 											Для сауны
 										</button>
 								</div>
-								<div id="sauna" class="collapse" aria-labelledby="sauna-heading" data-parent="#heating-equipment">
-									<div class="card-body">
+								<div id="sauna" className="collapse" aria-labelledby="sauna-heading" data-parent="#heating-equipment">
+									<div className="card-body">
 										электрокаменки								
 									</div>
 								</div>
 							</div>
 							
-							<div class="card">
-								<div class="card-header" id="home-heating-heading">
-										<button class="btn" type="button" data-toggle="collapse" data-target="#home-heating" 
+							<div className="card">
+								<div className="card-header" id="home-heating-heading">
+										<button className="btn" type="button" data-toggle="collapse" data-target="#home-heating" 
 														aria-expanded="true" aria-controls="home-heating">
 											Для обогрева дома, промышленного помещения
 										</button>
 								</div>
-								<div id="home-heating" class="collapse" aria-labelledby="home-heating-heading" data-parent="#heating-equipment">
-									<div class="card-body">
+								<div id="home-heating" className="collapse" aria-labelledby="home-heating-heading" data-parent="#heating-equipment">
+									<div className="card-body">
 										конвекторы, калориферы, тепловые пушки, ЭВПМ, тепловые завесы, ПЭТ									
 									</div>
 								</div>

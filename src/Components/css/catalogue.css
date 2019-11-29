@@ -1,0 +1,12 @@
+.catalogue-page {
+	padding: 50px 0 100px 0;
+}
+
+.catalogue-page h4 {
+	text-align: center;
+}
+
+.catalogue-page .search-panel {
+	width: 800px;
+	margin: auto;
+}

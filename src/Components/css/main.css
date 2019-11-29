@@ -63,14 +63,6 @@
 	border-radius: 10px;
 }
 
-.benefits benefit-card:nth-child(2n) {
-	animation: drop-to-bottom 1s ease;
-}
-
-.benefits benefit-card:nth-child(2n + 1) {
-	animation: drop-to-top 1s ease;
-}
-
 .benefits benefit-card h5 {
 	font-size: 22px;
 	height: 50px;

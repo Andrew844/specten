@@ -1,33 +1,30 @@
 import React from "react";
-import {Component} from "react";
 
 import "../css/useful.css";
 
-export default class Useful extends Component {
-	render () {
-		return (
-			<div className="useful-page">
-				<div className="section-header">
-					<h4>О применении ТЭН</h4>
-					<p>В этом разделе вы найдете полезные материалы обо всех областях применения ТЭН, 
-						их свойствах, характеристиках, а так же полезные советы</p>
-				</div>
-
-				<div className="row">
+export default function Useful () {
+	return (
+		<div className="useful-page">
+			<div className="section-header">
+				<h4>О применении ТЭН</h4>
+				<p>В этом разделе вы найдете полезные материалы обо всех областях применения ТЭН, 
+					их свойствах, характеристиках, а так же полезные советы</p>
+			</div>
+			<div className="row">
 				<div className="col-4 titles">
 					<div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 						<a className="nav-link active" id="v-pills-infrared-heaters-tab" data-toggle="pill" 
-							 href="#v-pills-infrared-heaters" role="tab" aria-controls="v-pills-infrared-heaters" 
-							 aria-selected="true">Инфракрасные обогреватели</a>
+							href="#v-pills-infrared-heaters" role="tab" aria-controls="v-pills-infrared-heaters" 
+							aria-selected="true">Инфракрасные обогреватели</a>
 						<a className="nav-link" id="v-pills-storage-water-heaters-tab" data-toggle="pill"
-							 href="#v-pills-storage-water-heaters" role="tab" aria-controls="v-pills-storage-water-heaters" 
-							 aria-selected="false">Накопительные водонагреватели</a>
+							href="#v-pills-storage-water-heaters" role="tab" aria-controls="v-pills-storage-water-heaters" 
+							aria-selected="false">Накопительные водонагреватели</a>
 						<a className="nav-link" id="v-pills-electric-heater-tab" data-toggle="pill" 
-							 href="#v-pills-electric-heater" role="tab" aria-controls="v-pills-electric-heater" 
-							 aria-selected="false">Электрический водонагреватель</a>
+							href="#v-pills-electric-heater" role="tab" aria-controls="v-pills-electric-heater" 
+							aria-selected="false">Электрический водонагреватель</a>
 						<a className="nav-link" id="v-pills-convectors-types-tab" data-toggle="pill" 
-							 href="#v-pills-convectors-types" role="tab" aria-controls="v-pills-convectors-types" 
-							 aria-selected="false">Виды конвекторов</a>
+							href="#v-pills-convectors-types" role="tab" aria-controls="v-pills-convectors-types" 
+							aria-selected="false">Виды конвекторов</a>
 					</div>
 				</div>
 				<div className="col-8 descriptions">
@@ -80,25 +77,25 @@ export default class Useful extends Component {
 							<p>При покупке подобного бака, у каждого возникает вопрос: С каким объемом лучше купить водонагреватель?</p>
 							<p>Известно, что на одну среднестатистическую семью необходим бак объемом не менее 150-170 литров.</p>
 							<p>Но, если у Вас большая квартира и располагают денежные возможности, то лучше приобрести водонагреватель с большим объемом,
-								 чтобы потом не тратиться дважды при замене этого бака на новый побольше.</p>
+								чтобы потом не тратиться дважды при замене этого бака на новый побольше.</p>
 							<p> Также при покупке каждый желает, чтобы «выходящая» вода оставалась такой же чистой, а может 
 								быть даже и лучше. На качество воды влияет поверхности самого бака, то есть 
 								из чего он произведен.</p>
 							<p>Многие фирмы делают их из нержавеющей стали, затем для создания «оболочки» покрывают ее специальной глазурью. 
 								Но она способна к разрушению. Поэтому через какое-то время потрескавшаяся глазурь приведет
-								 к коррозии металла, тем самым загрязняя воду.</p>
+								к коррозии металла, тем самым загрязняя воду.</p>
 							<p>Еще есть баки с тефлоновым покрытием, они не плохие. Занимают второе место по качеству поверхностей водонагревателей.</p>
 							<p>Но самыми лучшими, по многим исследованиям, выделяют баки, стенки которых сделаны из 
 								специальной высоколегированной, устойчивой к коррозийным воздействиям стали.</p>
 							<p>Они отличаются долговечностью, имеют выровненную поверхность, но и стоят дороже остальных.</p>
 							<p> Также на чистоту влияют профилактические обработки бака специальными чистящими средствами,
-								 не оставляющими налета. В таком случае у Вас всегда в доме будет 
-								 горячая вода, но к тому же еще и без вредных примесей.</p>
+								не оставляющими налета. В таком случае у Вас всегда в доме будет 
+								горячая вода, но к тому же еще и без вредных примесей.</p>
 						</div>
 						<div className="tab-pane fade heaters" id="v-pills-electric-heater" role="tabpanel" aria-labelledby="v-pills-electric-heater-tab">
 							<h5>Электрический водонагреватель</h5>
 							<p>В современном ритме жизни и развитии техники мы не представляем жизнь без примитивных удобств, например горячая вода.
-								 Сейчас за счет использования электрического водонагревателя мы бесперебойно и в любом месте можем пользоваться горячей водой.</p>
+								Сейчас за счет использования электрического водонагревателя мы бесперебойно и в любом месте можем пользоваться горячей водой.</p>
 							<p>Существует большое множество видов таких водонагревателей. И их эксплуатация также различна. Например, в квартире 
 								рекомендуется использовать систему проточный напорный водонагреватель.</p>
 							<p>А если же Вы хотите обеспечить горячей водой, только отдельные места, например ванную комнату, в таком случае лучше будет установить проточный безнапорный водонагреватель.
@@ -107,7 +104,7 @@ export default class Useful extends Component {
 								количество электрических мощностей. Если же вы тратите большое количество горячей воды и хотите, 
 								чтобы в доме был ее запас, то в таком случае оптимальным вариантом будет использование накопительного водонагревателя.</p>
 							<p>Но у него также есть свой минус – малая скорость нагрева воды и он занимает большое
-								 пространство при его установке. Но происходит экономия энергии.</p>
+								пространство при его установке. Но происходит экономия энергии.</p>
 						</div>
 						<div className="tab-pane fade heaters" id="v-pills-convectors-types" role="tabpanel" aria-labelledby="v-pills-convectors-types-tab">
 							<h5>Виды конвекторов</h5>
@@ -126,8 +123,6 @@ export default class Useful extends Component {
 					</div>
 				</div>
 			</div>
-			
-			</div>
-		);
-	};
+		</div>
+	);
 };

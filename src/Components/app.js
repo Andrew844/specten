@@ -5,6 +5,7 @@ import Header from "./header";
 import Main from "./pages/main";
 import Contacts from "./pages/contacts";
 import Footer from "./footer";
+import Catalogue from "./pages/catalogue";
 import Useful from "./pages/useful";
 
 export default class App extends Component {
@@ -67,6 +68,9 @@ export default class App extends Component {
 			case "useful":
 				this.changeBtnColor("useful");
 				return <Useful />
+			case "catalogue":
+				this.changeBtnColor("catalogue");
+				return <Catalogue />;
 			default:
 				console.log(`Incorrect parameter: ${page}`);
 		}
