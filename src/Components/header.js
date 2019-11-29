@@ -7,6 +7,7 @@ export default function Header (props) {
 	return (
 		<div className="header">
 			<div className="logo"
+				title="На главную"
 				onClick={() => props.changePages("main")}>
 				<h3>МиассСпецТэн</h3>
 			</div>
@@ -32,7 +33,9 @@ export default function Header (props) {
 						 props.changePages("contacts");
 						 }}>Контакты</p>
 			</div>
-			<div className="phones">
+			<div className="phones"
+					 title="Контакты"
+					 onClick={() => props.changePages("contacts")}>
 				<p>	8 908 82603 01 <br/>
 						(3513) 59-17-67</p>
 			</div>
