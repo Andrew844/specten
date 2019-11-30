@@ -4,7 +4,7 @@ import "../css/useful.css";
 
 export default function Useful () {
 	return (
-		<div className="useful-page">
+		<div className="useful-page" id="useful-page">
 			<div className="section-header">
 				<h4>О применении ТЭН</h4>
 				<p>В этом разделе вы найдете полезные материалы обо всех областях применения ТЭН, 

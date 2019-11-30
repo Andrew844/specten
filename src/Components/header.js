@@ -12,26 +12,26 @@ export default function Header (props) {
 				<h3>МиассСпецТэн</h3>
 			</div>
 			<div className="links">
-				<p className="main waves-effect"
+				<a href="#main-page" className="main waves-effect"
 					 style={{backgroundColor: "#2c38c9"}}
 					 onClick={() => {
 						 props.changePages("main");
-						 }}>Главная</p>
-				<p className="catalogue waves-effect"
+						 }}>Главная</a>
+				<a href="#catalogue-page" className="catalogue waves-effect"
 					 style={{backgroundColor: btnColor}}
 					 onClick={() => {
 						props.changePages("catalogue");
-						}}>Каталог</p>
-				<p className="useful waves-effect"
+						}}>Каталог</a>
+				<a href="#useful-page" className="useful waves-effect"
 					 style={{backgroundColor: btnColor}}
 					 onClick={() => {
 					 	props.changePages("useful");
-					 	}}>Полезное</p>
-				<p className="contacts waves-effect"
+					 	}}>Полезное</a>
+				<a href="#contacts-page" className="contacts waves-effect"
 					 style={{backgroundColor: btnColor}}
 					 onClick={() => {
 						 props.changePages("contacts");
-						 }}>Контакты</p>
+						 }}>Контакты</a>
 			</div>
 			<div className="phones"
 					 title="Контакты"

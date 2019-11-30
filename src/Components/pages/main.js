@@ -10,7 +10,7 @@ import setting from "../../img/benefits/setting.jpeg";
 export default class Main extends Component {
 	render () {
 		return (
-			<div className="main">
+			<div className="main" id="main-page">
 				<section className="welcome">
 					<div className="description">
 						<h4>Добро пожаловать</h4>

@@ -4,7 +4,7 @@ import "../css/contacts.css";
 
 export default function Contacts () {
 	return (
-		<div className="contacts-page">
+		<div className="contacts-page" id="contacts-page">
 			<div className="description">
 				<p>
 				ООО "МиассСпецТэн"

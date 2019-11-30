@@ -13,15 +13,19 @@
 	display: flex;
 }
 
-.links p {
+.links a {
 	cursor: pointer;
 	color: white;
 	text-align: center;
-	height: 95px;
+	height: 80px;
 	width: 130px;
-	line-height: 105px;
+	line-height: 80px;
 	font-size: 20px;
 	text-decoration: none;
+}
+
+.links a:focus {
+	outline: none;
 }
 
 .logo {

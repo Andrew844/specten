@@ -2,11 +2,9 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	background-image: linear-gradient(to top, #090d36, #1520a1);
-	opacity: .9;
+	background-color: #313ef5;
 	color: white;
-	font-size: 17px;
-	font-weight: 500;
+	font-size: 19px;
 	padding: 40px 0 40px 0;;
 }
 
