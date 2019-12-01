@@ -171,7 +171,7 @@ export default class Main extends Component {
 
 						</div>
 
-						<div className="heating-equipment" id="heating-equipment">
+						<div className="accordion heating-equipment" id="heating-equipment">
 							<h5>Промышленных и бытовых нагревательных приборов</h5>
 
 							<div className="card">

@@ -158,14 +158,17 @@
 .heating {
 	padding: 50px 0 100px 0;
 	margin: 100px 0 0 0;
-	background-image: linear-gradient(to bottom, rgba(10, 10, 10, .9),	rgba(0, 0, 0, 0.5)), url("../../img/heating/plumbing.jpg");
+	background-image: linear-gradient(to bottom, rgba(10, 10, 10, .9),	rgba(0, 0, 0, 0.5)), 
+	url("../../img/heating/plumbing.jpg");
 	background-size: 100%;
 	color: white;
 }
 
 .heating h4 {
 	text-align: center;
-	font-size: 30px;
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 40px;
 }
 
 .heating .collapsible-lists {
@@ -175,6 +178,11 @@
 
 .heating .heating-elements, .heating-equipment {
 	width: 500px;
+}
+
+.heating .heating-elements h5, .heating-equipment h5 {
+	font-size: 27px;
+	font-weight: 400;
 }
 
 .heating .collapsible-lists .heating-elements .card, .heating-equipment .card {
@@ -201,6 +209,7 @@
 	text-transform: none;
 	text-align: left;
 	font-size: 18px;
+	color: white;
 }
 
 .heating .collapsible-lists .heating-elements .card button:hover, .heating-equipment .card button:hover {
@@ -217,11 +226,11 @@
 
 .heating .collapsible-lists h5 {
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .heating .collapsible-lists .heating-elements h5 {
-	height: 55px;
+	height: 65px;
 	line-height: 55px;
 }
 
