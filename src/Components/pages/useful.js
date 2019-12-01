@@ -4,14 +4,14 @@ import "../css/useful.css";
 
 export default function Useful () {
 	return (
-		<div className="useful-page" id="useful-page">
+		<div className="useful-page container" id="useful-page">
 			<div className="section-header">
 				<h4>О применении ТЭН</h4>
 				<p>В этом разделе вы найдете полезные материалы обо всех областях применения ТЭН, 
 					их свойствах, характеристиках, а так же полезные советы</p>
 			</div>
 			<div className="row">
-				<div className="col-4 titles">
+				<div className="col-3 titles">
 					<div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 						<a className="nav-link active" id="v-pills-infrared-heaters-tab" data-toggle="pill" 
 							href="#v-pills-infrared-heaters" role="tab" aria-controls="v-pills-infrared-heaters" 
@@ -27,9 +27,10 @@ export default function Useful () {
 							aria-selected="false">Виды конвекторов</a>
 					</div>
 				</div>
-				<div className="col-8 descriptions">
+				<div className="col-9 descriptions">
 					<div className="tab-content" id="v-pills-tabContent">
-						<div className="tab-pane fade show active heaters" id="v-pills-infrared-heaters" role="tabpanel" aria-labelledby="v-pills-infrared-heaters-tab">
+						<div className="tab-pane fade show active heaters" id="v-pills-infrared-heaters" role="tabpanel" 
+						aria-labelledby="v-pills-infrared-heaters-tab">
 							<h5>Инфракрасные обогреватели</h5>
 							<div className="description">
 								<p>Как всем известно, из законов физики, теплый воздух имеет 
@@ -65,7 +66,8 @@ export default function Useful () {
 									обогреватель при достижении определенного температурного режима и наоборот.</p>
 							</div>
 						</div>
-						<div className="tab-pane fade heaters" id="v-pills-storage-water-heaters" role="tabpanel" aria-labelledby="v-pills-storage-water-heaters-tab">
+						<div className="tab-pane fade heaters" id="v-pills-storage-water-heaters" role="tabpanel" 
+						aria-labelledby="v-pills-storage-water-heaters-tab">
 							<h5>Накопительные водонагреватели</h5>
 							<p>Накопительные водонагреватели – это одно из лучших созданий техники. </p>
 							<p>Представляют они собой баки разного размера и объема. Функциональность их 
@@ -92,7 +94,8 @@ export default function Useful () {
 								не оставляющими налета. В таком случае у Вас всегда в доме будет 
 								горячая вода, но к тому же еще и без вредных примесей.</p>
 						</div>
-						<div className="tab-pane fade heaters" id="v-pills-electric-heater" role="tabpanel" aria-labelledby="v-pills-electric-heater-tab">
+						<div className="tab-pane fade heaters" id="v-pills-electric-heater" role="tabpanel" 
+						aria-labelledby="v-pills-electric-heater-tab">
 							<h5>Электрический водонагреватель</h5>
 							<p>В современном ритме жизни и развитии техники мы не представляем жизнь без примитивных удобств, например горячая вода.
 								Сейчас за счет использования электрического водонагревателя мы бесперебойно и в любом месте можем пользоваться горячей водой.</p>
@@ -106,7 +109,8 @@ export default function Useful () {
 							<p>Но у него также есть свой минус – малая скорость нагрева воды и он занимает большое
 								пространство при его установке. Но происходит экономия энергии.</p>
 						</div>
-						<div className="tab-pane fade heaters" id="v-pills-convectors-types" role="tabpanel" aria-labelledby="v-pills-convectors-types-tab">
+						<div className="tab-pane fade heaters" id="v-pills-convectors-types" role="tabpanel" 
+						aria-labelledby="v-pills-convectors-types-tab">
 							<h5>Виды конвекторов</h5>
 							<p>Из года в год с каждым происходит такая картина, когда на дворе унылая и холодная осень, льют серые дожди…</p>
 							<p>И так грустно и холодно!</p>

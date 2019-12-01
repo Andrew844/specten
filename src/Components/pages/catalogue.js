@@ -15,9 +15,11 @@ export default class Catalogue extends Component {
 					<h4>Каталог</h4>
 				</div>
 				<div className="search-panel">
-					<div className="input-field">
-						<input id="search" type="password" className="validate"/>
-						<label htmlFor="search">Search</label>
+					<div  className="input-field">
+						<input id="search" type="text" required="true" valid="true"/>
+						<label htmlFor="search">
+							<span className="content-name">Введите запрос</span>
+						</label>
 					</div>
 				</div>
 				<div className="cards">

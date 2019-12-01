@@ -27,18 +27,24 @@ export default class Main extends Component {
 					<div className="application-form">
 						<h4>Отправить заявку</h4>
 						<div  className="input-field">
-							<input id="email" type="text"  className="validate" />
-							<label htmlFor="email">Введите email</label>
+							<input id="email" type="text" required="true" valid="true"/>
+							<label htmlFor="email">
+								<span className="content-name">Введите email</span>
+							</label>
         		</div>
 						<div  className="input-field">
-							<input id="phone-number" type="text"  className="validate" />
-							<label htmlFor="phone-number">Введите номер телефона</label>
+							<input id="phone" type="text" required="true" valid="true"/>
+							<label htmlFor="phone">
+								<span className="content-name">Введите номер телефона</span>
+							</label>
         		</div>
 						<div  className="input-field">
-							<textarea id="question"  className="materialize-textarea"></textarea>
-          		<label htmlFor="question">Задайте ваш вопрос</label>
+							<input id="phone" type="text" required="true" valid="true"/>
+							<label htmlFor="phone">
+								<span className="content-name">Задайте ваш вопрос</span>
+							</label>
         		</div>
-						<p className="waves-effect waves-light btn-large">Отправить</p>
+						<button type="button" className="btn btn-primary">Отправить</button>
 					</div>
 				</section>
 				

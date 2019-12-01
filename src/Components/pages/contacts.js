@@ -17,21 +17,27 @@ export default function Contacts () {
 				e-mail:<span> spetsten@yandex.ru</span>
 				</p>
 			</div>
-			<div className="submit-form">
-				<h5>Вы можете связаться с нами через форму:</h5>
-				<div className="input-field">
-					<input id="email" type="email" className="validate"/>
-					<label htmlFor="email">Введите ваш email</label>
-				</div>
-				<div className="input-field">
-					<input id="phone" type="email" className="validate"/>
-					<label htmlFor="phone">Введите ваш телефон</label>
-				</div>
-				<div className="input-field">
-					<textarea id="question" className="materialize-textarea"></textarea>
-					<label htmlFor="question">Введите ваш вопрос</label>
-				</div>
-				<p className="submit-btn waves-effect btn-large">Отправить</p>
+			<div className="application-form">
+				<h4>Вы можете связаться с нами через форму:</h4>
+				<div  className="input-field">
+					<input id="email" type="text" required="true" valid="true"/>
+					<label htmlFor="email">
+						<span className="content-name">Введите email</span>
+					</label>
+        </div>
+				<div  className="input-field">
+					<input id="phone" type="text" required="true" valid="true"/>
+					<label htmlFor="phone">
+						<span className="content-name">Введите номер телефона</span>
+					</label>
+        </div>
+				<div  className="input-field">
+					<input id="phone" type="text" required="true" valid="true"/>
+					<label htmlFor="phone">
+						<span className="content-name">Задайте ваш вопрос</span>
+					</label>
+        </div>
+				<button type="button" className="btn btn-primary">Отправить</button>
 			</div>
 		</div>
 	);
