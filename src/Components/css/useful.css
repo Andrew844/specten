@@ -1,12 +1,16 @@
 .useful-page {
-	padding: 200px 0 100px 0;
+	padding: 150px 0 100px 0;
 	background-color: #f7f7ff;
 	width: 100%;
+	background-image: linear-gradient(to bottom, rgba(30, 30, 30, .9),	rgba(0, 0, 0, 0.5)),
+	url("../../img/useful/stone.jpg");
+	background-size: contain;
 }
 
 .useful-page .section-header {
-	padding: 0 0 80px 50px;
+	padding: 0 50px 50px;
 	animation: drop-to-top .7s ease;
+	color: white;
 }
 
 .useful-page .section-header h4 {
@@ -25,7 +29,7 @@
 	flex-wrap: wrap;
 	width: 790px;
 	margin: auto;
-	transition: all .4s ease;
+	animation: fade-in-right .7s ease;
 }
 
 .useful-page .cards .card {
@@ -38,6 +42,7 @@
 	align-items: center;
 	transition: all .4s ease;
 	overflow: hidden;
+	cursor: pointer;
 }
 
 .useful-page .cards .card p {
@@ -126,6 +131,17 @@
 	0% {
 		opacity: 0;
 		transform: translateX(-100px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+@keyframes fade-in-left {
+	0% {
+		opacity: 0;
+		transform: translateX(100px);
 	}
 	100% {
 		opacity: 1;
