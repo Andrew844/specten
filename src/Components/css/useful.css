@@ -1,61 +1,124 @@
 .useful-page {
-	padding: 130px 0 100px 0;
+	padding: 200px 0 100px 0;
+	background-color: #f7f7ff;
+	width: 100%;
 }
 
 .useful-page .section-header {
-	text-align: center;
-	margin: 0 0 100px 0;
-	animation: drop-to-top .7s ease
+	padding: 0 0 80px 50px;
+	animation: drop-to-top .7s ease;
+}
+
+.useful-page .section-header h4 {
+	font-size: 35px;
+	font-weight: 400;
 }
 
 .useful-page .section-header p {
-	width: 500px;
-	font-size: 18px;
+	width: 700px;
+	font-size: 21px;
+	line-height: 40px;
+}
+
+.useful-page .cards {
+	display: flex;
+	flex-wrap: wrap;
+	width: 790px;
+	margin: auto;
+	transition: all .4s ease;
+}
+
+.useful-page .cards .card {
+	width: 350px;
+	height: 350px;
+	margin: 10px 10px 10px 10px;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all .4s ease;
+	overflow: hidden;
+}
+
+.useful-page .cards .card p {
+	color: white;
+	position: absolute;
+	z-index: 10;
+	font-size: 20px;
+}
+
+.useful-page .cards .infrared-heaters {
+	background-image: url("../../img/useful/infrared-heaters.jpg");
+}
+
+.useful-page .cards .infrared-heaters p, .storage-heaters p {
+	transform: translateX(-150%);
+}
+
+.useful-page .cards .floor-convectors {
+	background-image: url("../../img/useful/floor-convectors.jpg");
+}
+
+.useful-page .cards .floor-convectors p, .electric-heaters p {
+	transform: translateX(150%);
+}
+
+.useful-page .cards .electric-heaters {
+	background-image: url("../../img/useful/electric-heaters.jpg");
+}
+
+.useful-page .cards .storage-heaters {
+	background-image: url("../../img/useful/storage-heaters.jpg");
+}
+
+.useful-page .cards .card:hover:before {
+		content: "";
+		display: block;    
+		width: 100%;
+		height: 100%;    
+		position: absolute;
+		top: 0;      
+		left: 0;   
+		background: transparent;
+		background-image: linear-gradient(to left, black, black);
+		opacity: 0.6;
+		animation: show-opacity .5s ease;
+}
+
+.useful-page .cards .card:hover p {
+	transform: translateX(0%);
+	animation: fade-in-left .4s ease;
+}
+
+.useful-page .modal .modal-header {
+	display: flex;
+	align-items: center;
+}
+
+.useful-page .modal .modal-header, .modal-header h5, .modal-header span {
+	background-color: #313ef5;
+	color: white;
+	font-size: 25px;
+}
+
+.useful-page .modal .modal-footer {
+	border: none;	
+}
+
+.useful-page .modal .modal-footer button {
+	background-color: #313ef5;
+	width: 100px;
+	height: 40px;
+	font-size: 16px;
 	margin: auto;
 }
 
-.useful-page .heaters {
-	padding: 20px 20px 20px 20px;
-	border: 2px solid #5289ff;
-	border-radius: 10px;
-}
-
-.useful-page .heaters h5 {
-	text-align: center;
-}
-
-.useful-page .infrared-heaters h5 {
-	text-align: center;
-}
-
-.useful-page .titles {
-	animation: fade-in-left .7s ease
-}
-
-.useful-page .descriptions {
-	animation: fade-in-right .7s ease
-}
-
-@keyframes drop-to-top {
+@keyframes show-opacity {
 	0% {
 		opacity: 0;
-		transform: translateY(200px);
 	}
 	100% {
-		opacity: 1;
-		transform: translateY(0px);
-
-	}
-}
-
-@keyframes fade-in-right {
-	0% {
-		opacity: 0;
-		transform: translateX(100px);
-	}
-	100% {
-		opacity: 1;
-		transform: translateX(0px);
+		opacity: .6;
 	}
 }
 
