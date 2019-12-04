@@ -98,6 +98,7 @@
 	cursor: pointer;
 	margin-top: 30px;
 	background-color: #e0e1f0;
+	border: none;
 }
 
 .catalogue-page .cards .card .card-header {
@@ -124,6 +125,56 @@
 	width: 320px;
 	margin: 20px auto 50px auto;
 	font-size: 18px;
+}
+
+.catalogue-page .modal .modal-header {
+	display: flex;
+	align-items: center;
+}
+
+.catalogue-page .modal .modal-body .description h5 {
+	text-align: center;
+}
+
+.catalogue-page .modal .modal-body .description p {
+	line-height: 30px;
+}
+
+.catalogue-page .modal img {
+	display: block;
+	margin: auto;
+}
+
+.catalogue-page .modal .accordion .card .card-header {
+	padding: 0;
+	height: 50px;
+}
+
+.catalogue-page .modal .accordion .card .card-header button {
+	width: 100%;
+	line-height: 40px;
+	outline: none;
+	font-size: 18px;
+	border: none;
+	text-align-last: left;
+}
+
+.catalogue-page .modal .modal-header, .modal-header h5, .modal-header span {
+	background-color: #313ef5;
+	color: white;
+	font-size: 25px;
+}
+
+.catalogue-page .modal .modal-footer {
+	border: none;	
+}
+
+.catalogue-page .modal .modal-footer button {
+	background-color: #313ef5;
+	width: 100px;
+	height: 40px;
+	font-size: 16px;
+	margin: auto;
 }
 
 @keyframes fade-in-left {
