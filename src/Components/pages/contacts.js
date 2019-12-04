@@ -20,19 +20,19 @@ export default function Contacts () {
 			<div className="application-form">
 				<h4>Вы можете связаться с нами через форму:</h4>
 				<div  className="input-field">
-					<input id="email" type="text" required="true" valid="true"/>
+					<input id="email" type="text" required={true} valid="true"/>
 					<label htmlFor="email">
 						<span className="content-name">Введите email</span>
 					</label>
         </div>
 				<div  className="input-field">
-					<input id="phone" type="text" required="true" valid="true"/>
+					<input id="phone" type="text" required={true} valid="true"/>
 					<label htmlFor="phone">
 						<span className="content-name">Введите номер телефона</span>
 					</label>
         </div>
 				<div  className="input-field">
-					<input id="phone" type="text" required="true" valid="true"/>
+					<input id="phone" type="text" required={true} valid="true"/>
 					<label htmlFor="phone">
 						<span className="content-name">Задайте ваш вопрос</span>
 					</label>

@@ -14,7 +14,7 @@
 	height: 400px;
 	font-size: 18px;
 	line-height: 1.6;
-	animation: fade-in-left .7s ease;
+	animation: left-side-fade .7s ease;
 }
 
 .main .description span {
@@ -271,7 +271,7 @@
 	}
 }
 
-@keyframes fade-in-left {
+@keyframes left-side-fade {
 	0% {
 		opacity: 0;
 		transform: translateX(-200px);

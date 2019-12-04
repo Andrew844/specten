@@ -18,7 +18,7 @@
 
 .contacts-page .application-form .input-field input {
 	width: 100%;
-	color: #595f6e;
+	color: white;
 	padding-top: 35px;
 	padding-bottom: 5px;
 	height: 60px;
@@ -94,14 +94,14 @@
 	text-align: center;
 	flex-direction: column;
 	justify-content: center;
-	animation: fade-in-right 1s ease;
+	animation: fade-in-right .7s ease;
 }
 
 .contacts-page .description {
 	line-height: 40px;
 	font-weight: 400;
 	font-size: 20px;
-	animation: fade-in-left .7s ease;
+	animation: fade-left-side .7s ease;
 }
 
 .contacts-page .description span {
@@ -120,7 +120,7 @@
 	}
 }
 
-@keyframes fade-in-left {
+@keyframes fade-left-side {
 	0% {
 		opacity: 0;
 		transform: translateX(-200px);

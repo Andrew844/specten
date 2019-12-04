@@ -26,7 +26,7 @@ export default function Useful () {
 			</div>
 
 			<div className="row">
-				<div className="modal fade" id="infrared-heaters" tabindex="-1" role="dialog" aria-labelledby="asdf" aria-hidden="true">
+				<div className="modal fade" id="infrared-heaters" tabIndex="-1" role="dialog" aria-labelledby="asdf" aria-hidden="true">
 				<div className="modal-dialog modal-lg modal-dialog-centered" role="document">
 					<div className="modal-content">
 						<div className="modal-header">
@@ -77,7 +77,7 @@ export default function Useful () {
 				</div>
 			</div>
 
-			<div className="modal fade" id="storage-heaters" tabindex="-1" role="dialog" aria-labelledby="storage-heaters-title" 
+			<div className="modal fade" id="storage-heaters" tabIndex="-1" role="dialog" aria-labelledby="storage-heaters-title" 
 			aria-hidden="true">
 				<div className="modal-dialog modal-lg modal-dialog-centered" role="document">
 					<div className="modal-content">
@@ -122,7 +122,7 @@ export default function Useful () {
 				</div>
 			</div>
 
-			<div className="modal fade" id="floor-convectors" tabindex="-1" role="dialog" aria-labelledby="floor-convectors-title" 
+			<div className="modal fade" id="floor-convectors" tabIndex="-1" role="dialog" aria-labelledby="floor-convectors-title" 
 			aria-hidden="true">
 				<div className="modal-dialog modal-lg modal-dialog-centered" role="document">
 					<div className="modal-content">
@@ -154,7 +154,7 @@ export default function Useful () {
 				</div>
 			</div>
 
-			<div className="modal fade" id="electric-heaters" tabindex="-1" role="dialog" aria-labelledby="electric-heaters-title" 
+			<div className="modal fade" id="electric-heaters" tabIndex="-1" role="dialog" aria-labelledby="electric-heaters-title" 
 			aria-hidden="true">
 				<div className="modal-dialog modal-lg modal-dialog-centered" role="document">
 					<div className="modal-content">

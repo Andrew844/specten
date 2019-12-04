@@ -1,10 +1,14 @@
 .catalogue-page {
-	padding: 130px 0 100px 0;
+	padding: 150px 0 200px 0;
+	background-image: linear-gradient(to bottom, rgba(50, 50, 50, .6),	rgba(50, 50, 50, 0.5)),
+	 url("../../img/catalogue/wall.jpg");
+	 background-size: contain;
 }
 
 .catalogue-page h4 {
 	text-align: center;
 	font-size: 35px;
+	color: white;
 }
 
 .catalogue-page .search-panel {
@@ -29,6 +33,7 @@
 	background-color: transparent;
 	outline: none;
 	box-shadow: none;
+	color: white;
 }
 
 .catalogue-page .search-panel .input-field label {
@@ -39,8 +44,9 @@
 	width: 100%;
 	height: 100%;
 	pointer-events: none;
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid white;
 	overflow: hidden;
+	color: white;
 }
 
 .catalogue-page .search-panel .input-field label:after {
@@ -50,7 +56,7 @@
 	width: 100%;
 	left: 0;
 	bottom: -2px;
-	border-bottom: 4px solid #313ef5;
+	border-bottom: 4px solid white;
 	transform: translateX(-100%);
 	transition: transform .3s ease;
 }
@@ -67,7 +73,7 @@
 .search-panel .input-field input:valid + label span {
 	transform: translateY(-150%);
 	font-size: 14px;
-	color: #313ef5;
+	color: white;
 }
 
 .catalogue-page .search-panel .input-field input:focus + label::after, 
