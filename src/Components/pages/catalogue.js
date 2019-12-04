@@ -105,8 +105,7 @@ export default class Catalogue extends Component {
 		if (query.length === 0) return cards;
 
 		return Object.values(cards).filter(card => {
-				return card.cardHeader.toLowerCase().indexOf(query.toLowerCase()) > -1 || 
-							 card.cardDescription.toLowerCase().indexOf(query.toLowerCase()) > -1;
+				return card.cardHeader.toLowerCase().indexOf(query.toLowerCase()) > -1;
 		});
 	}
 
