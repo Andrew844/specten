@@ -27,7 +27,7 @@ export default function Useful () {
 
 			<div className="row">
 				<div className="modal fade" id="infrared-heaters" tabIndex="-1" role="dialog" aria-labelledby="asdf" aria-hidden="true">
-				<div className="modal-dialog modal-lg modal-dialog-centered" role="document">
+				<div className="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
 					<div className="modal-content">
 						<div className="modal-header">
 							<h5 className="modal-title">Инфракрасные обогреватели</h5>
@@ -79,7 +79,7 @@ export default function Useful () {
 
 			<div className="modal fade" id="storage-heaters" tabIndex="-1" role="dialog" aria-labelledby="storage-heaters-title" 
 			aria-hidden="true">
-				<div className="modal-dialog modal-lg modal-dialog-centered" role="document">
+				<div className="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
 					<div className="modal-content">
 						<div className="modal-header">
 							<h5 className="modal-title">Накопительные водонагреватели</h5>
@@ -124,7 +124,7 @@ export default function Useful () {
 
 			<div className="modal fade" id="floor-convectors" tabIndex="-1" role="dialog" aria-labelledby="floor-convectors-title" 
 			aria-hidden="true">
-				<div className="modal-dialog modal-lg modal-dialog-centered" role="document">
+				<div className="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
 					<div className="modal-content">
 						<div className="modal-header">
 							<h5 className="modal-title">Виды конвекторов</h5>
@@ -156,7 +156,7 @@ export default function Useful () {
 
 			<div className="modal fade" id="electric-heaters" tabIndex="-1" role="dialog" aria-labelledby="electric-heaters-title" 
 			aria-hidden="true">
-				<div className="modal-dialog modal-lg modal-dialog-centered" role="document">
+				<div className="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
 					<div className="modal-content">
 						<div className="modal-header">
 							<h5 className="modal-title">Электрический водонагреватель</h5>
