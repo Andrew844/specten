@@ -74,7 +74,8 @@ export default class Catalogue extends Component {
 				cardImg: noPhoto,
 				cardDescription: `Электрокотлы используются в виде дополнительного или резервного 
 													источника обогрева систем водяного отопления жилых или производственных 
-													помещений, зданий, которые имеют открытую систему отопления.`
+													помещений, зданий, которые имеют открытую систему отопления.`,
+				dataTarget: "#electric-boilers"
 			},
 			electricConvectors: {
 				cardHeader: "Электроконвекторы",
@@ -91,7 +92,9 @@ export default class Catalogue extends Component {
 				cardDescription: `Если у Вас есть необходимость дополнительно обогревать 
 													бытовое или промышленное помещение, то обратите внимание на электрокалориферы.
 													Электрокалориферы – это уникальные универсальные приборы отопления. 
-													Наше предприятие готово поставлять калориферы различных марок и модификаций. `
+													Наше предприятие готово поставлять калориферы различных марок и модификаций. `,
+				dataTarget: "#electric-calorifers"
+			
 			}
 		},
 		searchQuery: ""
@@ -1253,6 +1256,570 @@ export default class Catalogue extends Component {
 											</div>
 										</div>
 									</div>
+								</div>
+
+						</div>
+						</div>
+						<div className="modal-footer">
+							<button type="button" className="btn btn-primary" data-dismiss="modal">Закрыть</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div className="modal fade" id="electric-boilers" tabIndex="-1" role="dialog" aria-labelledby="electric-boilers" 
+			aria-hidden="true">
+			<div className="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
+				<div className="modal-content">
+					<div className="modal-header">
+						<h5 className="modal-title">Электрокотлы</h5>
+						<button type="button" className="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div className="modal-body">
+						<div className="description">
+								<p>Электрокотлы используются в виде дополнительного или резервного источника обогрева 
+									систем водяного отопления жилых или производственных помещений, зданий, которые 
+									имеют открытую систему отопления. Такая система должна функционировать при давлении 
+									не менее 0.15 МПаскаль и иметь напряжение однофазной сети в 220 Вольт или трехфазной 
+									сети в 380 Вольт. Электрокотлы используют автономно или в паре с основным котлом, 
+									который работает на твердом, газовом или жидком топливе. Электрокотел имеет 
+									рабочий диапазон температур от +20С до +85С.</p>
+
+								<p>Внешне электрокотел выглядит как корпус из трубы. Внутри корпуса установлены 
+									трубчатые нагреватели, которые объединены в блок. Что касается корпуса котла, 
+									то он закрыт стальным кожухом. Он имеет два патрубка. Один патрубок служит в 
+									целях подвода холодной воды, а другой – для отвода нагретой воды. </p>
+
+								<p>Внутри кожуха рядом с корпусом находятся элементы управления: датчик-реле температур, 
+									магнитный пускатель, лампа индикации. При помощи ручки датчика-реле производится 
+									регулирование температуры воды в самом водонагревателе. Для индикации наличия 
+									напряжения служит лампа индикации, которая установлена рядом с датчиком на кожухе. 
+									Включение – отключение блока нагревателя обеспечивает магнитный пускатель.</p>
+
+								<p>Что касается электрокотлов ЭВПм, то они применяются для обогрева помещений. 
+									Их устанавливают в производственные и жилые помещения с открытой отопительной 
+									системой, которая работает при малом давлении (не превышает 0,15МПаскаль), 
+									с напряжением питающей сети в 220 Вольт или 380 Вольт. Электрокотлы марок ЭВПм 
+									являются полностью автономными. Однако, могут быть установлены для работы с 
+									основными котлами в комплексе. Тип монтажа бывает как горизонтальный, так и вертикальный.</p>
+
+								<p>В состав входит пульт управления, при помощи которого есть возможность устанавливать 
+									и поддерживать в системе отопления нужную температуру воды, в интервале от 35 до 85 градусов.</p>
+
+								<p>Что касается электрокотлов ЭВП, то они применяются при нагреве воды до температуры в 85 градусов. 
+									Электрокотлы марок ЭВП используют для технических целей и для обогрева жилых помещений. 
+									Котел выглядит как корпус, в котором расположен блок трубчатых электронагревателей.</p>
+
+								<p>Внутри корпуса электрокотла расположены два патрубка. Один служит для подвода 
+									холодной воды, а другой – для отвода горячей. При помощи пульта управления, 
+									который имеет два варианта исполнения – электронный и электромеханический, 
+									подключается к сети.</p>
+
+								<div className="accordion" id="electric-boiler-accordion">
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseOne-boiler" 
+												aria-expanded="true" aria-controls="collapseOne-boiler">
+													ЭВПм 3
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseOne-boiler" className="collapse" aria-labelledby="headingOne" data-parent="#electric-boiler-accordion">
+											<div className="card-body">
+												<p>ЭВПм 3 – моноблочный электрокотел массой до 10 килограмм и номинальной 
+													мощностью в 3 киловатта и габаритами 280х190х555. Имеет встроенный пульт 
+													управления. ЭВПм 3 позволяет удерживать температуру от 35 до 85 градусов 
+													на площади в 20-25 квадратных метров.</p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseTwo-boiler" 
+												aria-expanded="true" aria-controls="collapseTwo-boiler">
+													ЭВПм 9
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseTwo-boiler" className="collapse" aria-labelledby="headingOne" data-parent="#electric-boiler-accordion">
+											<div className="card-body">
+												<p>ЭВПм 9 – моноблочный электрокотел массой до 12 килограмм, номинальной 
+													мощностью в 9 киловатт и габаритами 280х190х654. Имеет встроенный пульт 
+													управления. ЭВПм 9 позволяет удерживать температуру от 35 до 85 градусов 
+													на площади в 65-70 квадратных метров. </p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseThree-boiler" 
+												aria-expanded="true" aria-controls="collapseThree-boiler">
+													ЭВПм 24
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseThree-boiler" className="collapse" aria-labelledby="headingOne" data-parent="#electric-boiler-accordion">
+											<div className="card-body">
+												<p>ЭВПм 24 – моноблочный электрокотел массой до 21 килограмма, номинальной 
+													мощностью в 24 киловатта и габаритами 430х180х654. Имеет встроенный 
+													пульт управления. ЭВПм 24 позволяет удерживать температуру от 35 до 
+													85 градусов на площади в 180-220 квадратных метров.</p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseFour-boiler" 
+												aria-expanded="true" aria-controls="collapseFour-boiler">
+													ЭВПм 48
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseFour-boiler" className="collapse" aria-labelledby="headingOne" data-parent="#electric-boiler-accordion">
+											<div className="card-body">
+												<p>ЭВПм 48 – моноблочный электрокотел массой до 40 килограмм, 
+													номинальной мощностью в 48 киловатт и габаритами 710х180х654. 
+													Имеет встроенный пульт управления. ЭВПм 48 позволяет удерживать 
+													температуру от 35 до 85 градусов на площади в 400-480 квадратных метров.</p>
+											</div>
+										</div>
+									</div>
+									
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseFive-boiler" 
+												aria-expanded="true" aria-controls="collapseFive-boiler">
+													ЭВП 6
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseFive-boiler" className="collapse" aria-labelledby="headingOne" data-parent="#electric-boiler-accordion">
+											<div className="card-body">
+												<p>ЭВП 6 – электрокотел, имеющий массу до 9 килограмм с номинальной 
+													мощностью в 6 киловатт и габаритами 700х180х180. Бывает с пультом 
+													управления, без пульта управления. При помощи ЭВП 6 можно поддерживать 
+													температуру воды от 38 до 85 градусов. Отапливает помещения от 40 до 
+													44 квадратных метров.</p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseSix-boiler" 
+												aria-expanded="true" aria-controls="collapseSix-boiler">
+													ЭВП 12
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseSix-boiler" className="collapse" aria-labelledby="headingOne" data-parent="#electric-boiler-accordion">
+											<div className="card-body">
+												<p>ЭВП 12 – электрокотел, имеющий массу до 9,6 килограмм с номинальной 
+													мощностью в 12 киловатт и габаритами 800х180х180. Бывает с пультом 
+													управления, без пульта управления. При помощи ЭВП 12 можно поддерживать 
+													температуру воды от 38 до 85 градусов. Отапливает помещения от 80 до 
+													85 квадратных метров.</p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseSeven-boiler" 
+												aria-expanded="true" aria-controls="collapseSeven-boiler">
+													ЭВПм 6
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseSeven-boiler" className="collapse" aria-labelledby="headingOne" data-parent="#electric-boiler-accordion">
+											<div className="card-body">
+												<p>ЭВПм 6 – моноблочный электрокотел массой до 10 килограмм, номинальной 
+													мощностью в 6 киловатт и габаритами 280х190х555. Имеет встроенный пульт 
+													управления. При помощи ЭВПм 6 можно удерживать температуру в 35 – 85 
+													градусов на площади в 40-44 квадратных метров. </p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseEight-boiler" 
+												aria-expanded="true" aria-controls="collapseEight-boiler">
+													ЭВПм 12
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseEight-boiler" className="collapse" aria-labelledby="headingOne" data-parent="#electric-boiler-accordion">
+											<div className="card-body">
+												<p>ЭВПм 12 – моноблочный электрокотел массой до 12 килограмм, номинальной 
+													мощностью в 12 киловатт и габаритами 280х190х654. Имеет встроенный пульт 
+													управления. ЭВПм 12 позволяет удерживать температуру от 35 до 85 градусов 
+													на площади в 80-85 квадратных метров.</p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseNine-boiler" 
+												aria-expanded="true" aria-controls="collapseNine-boiler">
+													ЭВПм 36
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseNine-boiler" className="collapse" aria-labelledby="headingOne" data-parent="#electric-boiler-accordion">
+											<div className="card-body">
+												<p>ЭВПм 36 – моноблочный электрокотел массой до 30 килограмм, номинальной 
+													мощностью в 36 киловатт и габаритами 570х180х654. Имеет встроенный пульт 
+													управления. ЭВПм 36 позволяет удерживать температуру от 35 до 85 градусов 
+													на площади в 300-360 квадратных метров.</p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseTen-boiler" 
+												aria-expanded="true" aria-controls="collapseTen-boiler">
+													ЭВП 3
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseTen-boiler" className="collapse" aria-labelledby="headingOne" data-parent="#electric-boiler-accordion">
+											<div className="card-body">
+												<p>ЭВП 3 – электрокотел, имеющий массу до 3 килограмм с номинальной 
+													мощностью в 3 киловатта и габаритами 700х180х180. Бывает с 
+													пультом управления, без пульта управления. При помощи ЭВП 3 
+													можно поддерживать температуру воды от 38 до 85 градусов. 
+													Отапливает помещения от 20 до 22 квадратных метров.</p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseEleven-boiler" 
+												aria-expanded="true" aria-controls="collapseEleven-boiler">
+													ЭВП 9
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseEleven-boiler" className="collapse" aria-labelledby="headingOne" data-parent="#electric-boiler-accordion">
+											<div className="card-body">
+												<p>ЭВП 9 – электрокотел, имеющий массу до 9,6 килограмм с номинальной 
+													мощностью в 9 киловатт и габаритами 800х180х180. Бывает с пультом 
+													управления, без пульта управления. При помощи ЭВП 9 можно поддерживать 
+													температуру воды от 38 до 85 градусов. Отапливает помещения от 60 
+													до 75 квадратных метров.</p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseTwelve-boiler" 
+												aria-expanded="true" aria-controls="collapseTwelve-boiler">
+													ЭВП 18
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseTwelve-boiler" className="collapse" aria-labelledby="headingOne" data-parent="#electric-boiler-accordion">
+											<div className="card-body">
+												<p>ЭВП 18 – электрокотел, имеющий массу до 11,5 килограмм с номинальной 
+													мощностью в 18 киловатт и габаритами 950х180х180. Бывает с пультом 
+													управления, без пульта управления. При помощи ЭВП 18 можно поддерживать 
+													температуру воды от 38 до 85 градусов. Отапливает помещения от 85 
+													до 95 квадратных метров.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+						</div>
+						</div>
+						<div className="modal-footer">
+							<button type="button" className="btn btn-primary" data-dismiss="modal">Закрыть</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div className="modal fade" id="electric-calorifers" tabIndex="-1" role="dialog" aria-labelledby="electric-calorifers" 
+			aria-hidden="true">
+			<div className="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
+				<div className="modal-content">
+					<div className="modal-header">
+						<h5 className="modal-title">Калориферы </h5>
+						<button type="button" className="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div className="modal-body">
+						<div className="description">
+								<p>Если у Вас есть необходимость дополнительно обогревать бытовое или промышленное 
+									помещение, то обратите внимание на электрокалориферы. Электрокалориферы – это 
+									уникальные универсальные приборы отопления. Наше предприятие готово поставлять калориферы различных марок и модификаций. <br/>
+									Электрокалориферы КЭВМ имеют ступенчатую регулировку мощности. <br/>
+									Электрокалориферы КЭВ не имеют возможности регулировать мощность.</p>
+
+								<h5>Общая информация о калориферах. </h5>
+
+								<p>Калориферы являются обособленным классом отопительного оборудования. 
+									Принцип их действия основан на подаче потока нагретого воздуха. На 
+									данный момент применение калориферов распространено во многих сферах 
+									деятельности человека. Электрокалориферы можно применять дома, например, 
+									когда еще в доме не включено централизованное отопление, а также в 
+									качестве источника дополнительного тепла. В загородном доме, на даче, 
+									на производстве, в промышленном помещении, в офисе, в павильоне. В 
+									любом месте применение калорифера вполне оправдано не только в виде 
+									дополнительного источника тепла, но и как основного источника. У нас 
+									продукция высокого качества. Вы можете выбрать более дешевую модель 
+									калорифера КЭВ, которая не имеет переключателя мощности. Если же Вам 
+									необходима более функциональная модель, то Вам следует заказать 
+									калорифер КЭВМ. Кстати, они тоже имеют приемлемые цены и превосходят по 
+									многим показателям аналоги из других стран.</p>
+
+								<p>Кроме этого, электрокалориферы применяют как горизонтальные тепловые 
+									завесы. Они отсекают потоки холодного воздуха от входных дверей. Применение 
+									прибора в технологических целях тоже возможно: для просушки помещений и 
+									покрытий из лака или краски, на складах – для создания нужного климата 
+									или же для просушки дерева. Получается, что калориферы являются 
+									универсальными приборами, которые необходимы везде. В теплое время 
+									года его можно использовать как вентилятор!</p>
+
+								<h5>Конструкция электрокалориферов</h5>
+
+								<p>Электрокалорифер состоит из корпуса, внутри которого находится мощный 
+									вентилятор, а также блок ТЭНов. На корпусе, на лицевой стороне находятся 
+									настройки режимов работы и клавиши управления включением прибора. Электрокалориферы 
+									имеют терморегулятор, который при достижении заданной температуры включает 
+									калорифер КЭВ. Это позволяет экономить электроэнергию. Для того, чтобы 
+									защитить отверстия для выхода воздуха, существует защитная сетка.</p>
+
+								<div className="accordion" id="electric-calorifer-accordion">
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseOne-calorifer" 
+												aria-expanded="true" aria-controls="collapseOne-calorifer">
+													Электрокалорифер КЭВМ-3
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseOne-calorifer" className="collapse" aria-labelledby="headingOne" data-parent="#electric-calorifer-accordion">
+											<div className="card-body">
+												<p>Электрокалорифер КЭВМ-3 – обогреватель, изготовленный в металлическом корпусе. 
+													Имея общую мощность в 3 киловатта и габариты 240х200х235, может работать в 
+													две ступени мощности - 0,5 и полную. Масса не более 5,5 килограмма.</p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseTwo-calorifer" 
+												aria-expanded="true" aria-controls="collapseTwo-calorifer">
+													Электрокалорифер КЭВМ-12
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseTwo-calorifer" className="collapse" aria-labelledby="headingOne" data-parent="#electric-calorifer-accordion">
+											<div className="card-body">
+												<p>Электрокалорифер КЭВМ-12 – обогреватель, изготовленный в металлическом корпусе. Имея общую мощность в 12 
+													киловатт и габариты 420х320х410, может работать в две ступени мощности - 0,5 и полную. 
+													Масса не более1 5,5 килограммов. </p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseThree-calorifer" 
+												aria-expanded="true" aria-controls="collapseThree-calorifer">
+													Электрокалорифер КЭВМ-40
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseThree-calorifer" className="collapse" aria-labelledby="headingOne" data-parent="#electric-calorifer-accordion">
+											<div className="card-body">
+												<p>Электрокалорифер КЭВМ-40 – промышленный обогреватель, изготовленный 
+													в металлическом корпусе. Имея общую мощность в 40 киловатт и 
+													габариты 630х485х700, может работать в три ступени мощности - 
+													16, 24 и полную. Масса не более 43 килограмм.</p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseFour-calorifer" 
+												aria-expanded="true" aria-controls="collapseFour-calorifer">
+													Электрокалорифер КЭВ-21
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseFour-calorifer" className="collapse" aria-labelledby="headingOne" data-parent="#electric-calorifer-accordion">
+											<div className="card-body">
+												<p>Электрокалорифер КЭВ-21 – профессиональный обогреватель , 
+													изготовленный в металлическом корпусе. При общей мощности в 
+													21 киловатт и при габаритах в 695х530х510 имеет массу в 30 килограмм.</p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseFive-calorifer" 
+												aria-expanded="true" aria-controls="collapseFive-calorifer">
+													Электрокалорифер КЭВ-60
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseFive-calorifer" className="collapse" aria-labelledby="headingOne" data-parent="#electric-calorifer-accordion">
+											<div className="card-body">
+												<p>Электрокалорифер КЭВ-60 – профессиональный обогреватель , изготовленный 
+													в металлическом корпусе. При общей мощности в 60 киловатт и при габаритах 
+													в 980х650х640 имеет массу в 60 килограмм.</p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseSix-calorifer" 
+												aria-expanded="true" aria-controls="collapseSix-calorifer">
+													Электрокалорифер (воздухонагреватель) КЭВМ-9
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseSix-calorifer" className="collapse" aria-labelledby="headingOne" data-parent="#electric-calorifer-accordion">
+											<div className="card-body">
+												<p>Электрокалорифер (воздухонагреватель) КЭВМ-9 – обогреватель, 
+													изготовленный в металлическом корпусе. Имея общую мощность в 9 
+													киловатт и габариты 430х320х410, может работать в две ступени 
+													мощности - 0,5 и полную. Масса не более 15,5 килограмм. </p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseSeven-calorifer" 
+												aria-expanded="true" aria-controls="collapseSeven-calorifer">
+													Электрокалорифер КЭВМ-21
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseSeven-calorifer" className="collapse" aria-labelledby="headingOne" data-parent="#electric-calorifer-accordion">
+											<div className="card-body">
+												<p>Электрокалорифер КЭВМ-21 – обогреватель, изготовленный в 
+													металлическом корпусе. Имея общую мощность в 21 киловатт и 
+													габариты 550х325х530, может работать в две ступени мощности - 
+													0,5 и полную. Масса не более 25,5 килограмм.</p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseEight-calorifer" 
+												aria-expanded="true" aria-controls="collapseEight-calorifer">
+													Электрокалорифер КЭВ-12
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseEight-calorifer" className="collapse" aria-labelledby="headingOne" data-parent="#electric-calorifer-accordion">
+											<div className="card-body">
+												<p>Электрокалорифер КЭВ-12 – профессиональный обогреватель , 
+													изготовленный в металлическом корпусе. При общей мощности в 
+													12 киловатт и при габаритах в 695х530х510 имеет массу в 27 килограмм.  </p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseNine-calorifer" 
+												aria-expanded="true" aria-controls="collapseNine-calorifer">
+													Электрокалорифер КЭВ-42
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseNine-calorifer" className="collapse" aria-labelledby="headingOne" data-parent="#electric-calorifer-accordion">
+											<div className="card-body">
+												<p>Электрокалорифер КЭВ-42 – профессиональный обогреватель , 
+													изготовленный в металлическом корпусе. При общей мощности в 
+													42 киловатта и при габаритах в 785х530х510 имеет массу в 37 килограмм.</p>
+											</div>
+										</div>
+									</div>
+
+									<div className="card">
+										<div className="card-header" id="headingOne">
+											<h2 className="mb-0">
+												<button className="button" type="button" data-toggle="collapse" data-target="#collapseTen-calorifer" 
+												aria-expanded="true" aria-controls="collapseTen-calorifer">
+													Электрокалорифер КЭВМ-2
+												</button>
+											</h2>
+										</div>
+
+										<div id="collapseTen-calorifer" className="collapse" aria-labelledby="headingOne" data-parent="#electric-calorifer-accordion">
+											<div className="card-body">
+												<p>Электрокалорифер КЭВМ-2 – обогреватель, изготовленный в 
+													металлическом корпусе. Имея общую мощность в 2 киловатта и 
+													габариты 240х200х235, может работать в две ступени мощности - 
+													0,5 и полную. Масса не более 7 килограмм.</p>
+											</div>
+										</div>
+									</div>						
+
 								</div>
 
 						</div>
