@@ -14,7 +14,7 @@ export default function Contacts () {
 				<br/>
 				456318 Челябинская обл., г. Миасс
 				<br/>
-				e-mail:<span> spetsten@yandex.ru</span>
+				e-mail: <a href="mailto:spetsten@yandex.ru" target="blank">spetsten@yandex.ru</a>
 				</p>
 			</div>
 			<div className="application-form">

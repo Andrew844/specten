@@ -104,9 +104,17 @@
 	animation: fade-left-side .7s ease;
 }
 
-.contacts-page .description span {
+.contacts-page .description a {
 	color: #5863f5;
 	font-weight: 550;
+}
+
+.contacts-page .description a:hover {
+	text-decoration: none;
+}
+
+.contacts-page .description a:focus {
+	outline: none;
 }
 
 @keyframes fade-in-right {
