@@ -50,10 +50,8 @@
 	color: #595f6e;
 	padding-top: 35px;
 	padding-bottom: 5px;
-	height: 60px;
 	font-size: 18px;
 	border: none;
-	width: 100%;
 	height: 100%;
 	background-color: transparent;
 	outline: none;
@@ -91,8 +89,7 @@
 	transition: all .3s ease;
 }
 
-.main 
-.application-form .input-field input:focus + label span,
+.main .application-form .input-field input:focus + label span,
 .application-form .input-field input:valid + label span {
 	transform: translateY(-150%);
 	font-size: 14px;
@@ -100,9 +97,9 @@
 }
 
 .main .application-form .input-field input:focus + label::after, 
-.input-field input:valid + label::after {
+.input-field input:valid + label::after{
 	transform: translateX(0%);
-
+	color: grey;
 }
 
 .main .application-form button {

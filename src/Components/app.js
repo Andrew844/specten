@@ -11,8 +11,7 @@ import Useful from "./pages/useful";
 export default class App extends Component {
 	
 	state = {
-		filter: "main",
-		clickedOnMain: true
+		filter: "main"
 	}
 
 	changePage = page => {

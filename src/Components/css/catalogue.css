@@ -21,11 +21,8 @@
 }
 
 .catalogue-page .search-panel .input-field input {
-	width: 100%;
-	color: #595f6e;
 	padding-top: 35px;
 	padding-bottom: 5px;
-	height: 60px;
 	font-size: 18px;
 	border: none;
 	width: 100%;
@@ -68,8 +65,7 @@
 	transition: all .3s ease;
 }
 
-.catalogue-page 
-.search-panel .input-field input:focus + label span,
+.catalogue-page .search-panel .input-field input:focus + label span,
 .search-panel .input-field input:valid + label span {
 	transform: translateY(-150%);
 	font-size: 14px;

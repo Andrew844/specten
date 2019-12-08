@@ -147,7 +147,7 @@ export default class Catalogue extends Component {
 				</div>
 				<div className="search-panel">
 					<div  className="input-field">
-						<input id="search" type="text" required={true} valid="true"
+						<input id="search" type="text" required={true}
 									 onChange={this.changeSearch}/>
 						<label htmlFor="search">
 							<span className="content-name">Введите запрос</span>

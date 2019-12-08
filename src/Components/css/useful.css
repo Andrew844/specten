@@ -85,7 +85,6 @@
 		position: absolute;
 		top: 0;      
 		left: 0;   
-		background: transparent;
 		background-image: linear-gradient(to left, black, black);
 		opacity: 0.6;
 		animation: show-opacity .5s ease;

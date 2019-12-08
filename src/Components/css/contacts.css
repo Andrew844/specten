@@ -17,11 +17,9 @@
 }
 
 .contacts-page .application-form .input-field input {
-	width: 100%;
 	color: white;
 	padding-top: 35px;
 	padding-bottom: 5px;
-	height: 60px;
 	font-size: 18px;
 	border: none;
 	width: 100%;
@@ -62,9 +60,8 @@
 	transition: all .3s ease;
 }
 
-.contacts-page 
-.application-form .input-field input:focus + label span,
-.application-form .input-field input:valid + label span {
+.contacts-page .application-form .input-field input:focus + .label span,
+.application-form .input-field input:valid + .label span {
 	transform: translateY(-150%);
 	font-size: 14px;
 	color: white;
@@ -106,7 +103,7 @@
 
 .contacts-page .description a {
 	color: #5863f5;
-	font-weight: 550;
+	font-weight: 600;
 }
 
 .contacts-page .description a:hover {
