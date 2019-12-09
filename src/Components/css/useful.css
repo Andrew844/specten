@@ -27,7 +27,7 @@
 .useful-page .cards {
 	display: flex;
 	flex-wrap: wrap;
-	width: 124vh;
+	width: 57vw;
 	margin: auto;
 	animation: fade-in-right .7s ease;
 }
@@ -35,7 +35,7 @@
 .useful-page .cards .card {
 	width: 350px;
 	height: 350px;
-	margin: 10px 10px 10px 10px;
+	margin: 10px auto 10px auto;
 	background-size: cover;
 	display: flex;
 	justify-content: center;
