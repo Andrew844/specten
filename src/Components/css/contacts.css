@@ -81,8 +81,7 @@
 	width: 150px;
 	height: 60px;
 	font-size: 18px;
-	margin: auto;
-	margin-top: 40px;
+	margin: 40px auto;
 }
 
 .contacts-page .application-form button:hover {

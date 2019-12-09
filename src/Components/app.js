@@ -12,10 +12,17 @@ export default class App extends Component {
 	
 	state = {
 		filter: "main"
-	}
+	};
 
 	changePage = page => {
 		this.setState({filter: page});
+	};
+
+	changePanelColor = (linksArr, changingLink) => {
+		for (let i = 0; i < linksArr.length; i++) {
+			linksArr[i].style.backgroundColor = "#313ef5";
+		}
+		changingLink.style.backgroundColor = "#2c38c9";
 	};
 
 	changeBtnColor = linkName => {
@@ -27,28 +34,16 @@ export default class App extends Component {
 		if (main && catalogue && useful && contacts) {
 			switch (linkName) {
 				case "main":
-					for (let i = 0; i < linksArr.length; i++) {
-						linksArr[i].style.backgroundColor = "#313ef5";
-					}
-					main.style.backgroundColor = "#2c38c9";
+					this.changePanelColor(linksArr, main);
 					break;
 				case "catalogue":
-						for (let i = 0; i < linksArr.length; i++) {
-							linksArr[i].style.backgroundColor = "#313ef5";
-						}
-						catalogue.style.backgroundColor = "#2c38c9";
+					this.changePanelColor(linksArr, catalogue);
 					break;
 				case "useful":
-						for (let i = 0; i < linksArr.length; i++) {
-							linksArr[i].style.backgroundColor = "#313ef5";
-						}
-						useful.style.backgroundColor = "#2c38c9";
+					this.changePanelColor(linksArr, useful);
 					break;
 				case "contacts":
-						for (let i = 0; i < linksArr.length; i++) {
-							linksArr[i].style.backgroundColor = "#313ef5";
-						}
-						contacts.style.backgroundColor = "#2c38c9";
+					this.changePanelColor(linksArr, contacts);
 					break;
 				default:
 					console.log(`LinkName "${linkName}" is incorrect`);
@@ -66,7 +61,7 @@ export default class App extends Component {
 				return <Contacts />;
 			case "useful":
 				this.changeBtnColor("useful");
-				return <Useful />
+				return <Useful />;
 			case "catalogue":
 				this.changeBtnColor("catalogue");
 				return <Catalogue />;
@@ -75,14 +70,11 @@ export default class App extends Component {
 		}
 	};
 
-	
-
 	render () {
-		const visiblePage = this.returnPages(this.state.filter);
 		return (
 			<div className="App">
 				<Header	changePages={this.changePage}/>
-				{visiblePage}
+					{this.returnPages(this.state.filter)}
 				<Footer/>
 			</div>
 		);
